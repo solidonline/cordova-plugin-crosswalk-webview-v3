@@ -3,14 +3,14 @@
   "version": "3.0.3",
   "description": "Changes the default WebView to CrossWalk",
   "cordova": {
-    "id": "cordova-plugin-crosswalk-webview-v3",
+    "id": "cordova-plugin-crosswalk-webview-v3-solid",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ardabeyazoglu/cordova-plugin-crosswalk-webview-v3"
+    "url": "https://github.com/solidonline/cordova-plugin-crosswalk-webview-v3"
   },
   "keywords": [
     "cordova",

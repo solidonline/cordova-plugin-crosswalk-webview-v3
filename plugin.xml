@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-crosswalk-webview-v3"
+        id="cordova-plugin-crosswalk-webview-v3-solid"
         version="3.0.3">
 
     <name>Crosswalk WebView Engine</name>
@@ -19,7 +19,7 @@
 
     <!-- android -->
     <platform name="android">
-        <preference name="XWALK_VERSION" default="23+"/>
+        <preference name="XWALK_VERSION" default="24+"/>
         <preference name="XWALK_LITEVERSION" default="xwalk_core_library_canary:17+"/>
         <preference name="XWALK_COMMANDLINE" default="--disable-pull-to-refresh-effect"/>
         <preference name="XWALK_MODE" default="embedded" />
