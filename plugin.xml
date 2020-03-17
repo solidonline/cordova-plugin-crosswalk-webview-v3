@@ -9,7 +9,7 @@
     <description>Changes the default WebView to CrossWalk</description>
     <license>Apache 2.0</license>
     <keywords>cordova,chromium,crosswalk,webview</keywords>
-    <repo>https://github.com/ardabeyazoglu/cordova-plugin-crosswalk-webview-v3</repo>
+    <repo>https://github.com/solidonline/cordova-plugin-crosswalk-webview-v3</repo>
     <issue>https://github.com/ardabeyazoglu/cordova-plugin-crosswalk-webview-v3/issues</issue>
 
     <engines>
@@ -19,7 +19,7 @@
 
     <!-- android -->
     <platform name="android">
-        <preference name="XWALK_VERSION" default="24+"/>
+        <preference name="XWALK_VERSION" default="23+"/>
         <preference name="XWALK_LITEVERSION" default="xwalk_core_library_canary:17+"/>
         <preference name="XWALK_COMMANDLINE" default="--disable-pull-to-refresh-effect"/>
         <preference name="XWALK_MODE" default="embedded" />
