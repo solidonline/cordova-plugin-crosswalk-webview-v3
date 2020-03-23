@@ -57,6 +57,10 @@ Check this gist to build all of them in one bash script: (<https://gist.github.c
 
 ### Release Notes
 
+#### 4.0.0 (March 10, 2020)
+* Use system WebView on above API 23
+
+
 #### 3.0.3 (February 18, 2020)
 * Changed 64bit product flavors to arm64 only, with a versionCode*10 + 4.
 
