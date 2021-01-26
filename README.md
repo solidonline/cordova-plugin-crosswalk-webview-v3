@@ -12,7 +12,8 @@ For detailed information about crosswalk, please visit the homepage of original 
 * Add this plugin
 
 ```
-$ cordova plugin add cordova-plugin-crosswalk-webview-v3
+$ cordova plugin add https://github.com/solidonline/cordova-plugin-crosswalk-webview-v3.git
+$ cordova plugin rm cordova-plugin-crosswalk-webview-v3-solid
 ```
 
 * Build
