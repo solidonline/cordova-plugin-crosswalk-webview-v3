@@ -13,7 +13,6 @@ For detailed information about crosswalk, please visit the homepage of original 
 
 ```
 $ cordova plugin add https://github.com/solidonline/cordova-plugin-crosswalk-webview-v3.git
-$ cordova plugin rm cordova-plugin-crosswalk-webview-v3-solid
 ```
 
 * Build
@@ -37,6 +36,12 @@ platforms/android/app/build/outputs/apk/x86/release/app-x86-release-unsigned.apk
 Google changed some policies at 2019 August, and now every app in the market requires 64-bit apks. To do that:
 
     $ cordova build --release --xwalk64bit
+
+* Remove After build
+
+```
+$ cordova plugin rm cordova-plugin-crosswalk-webview-v3-solid
+```
 
 It will generate following apks:
 
